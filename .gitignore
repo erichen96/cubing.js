@@ -1,6 +1,6 @@
 /.temp
 /coverage
-/dist
+
 /node_modules
 
 # Created by `npm pack` by default.
