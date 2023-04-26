@@ -269,12 +269,12 @@ function defaultnets(): any {
 }
 
 enum PGColors {
-  White = "#ffffff",
-  Orange = "#ff8000",
-  Green = "#44ee00",
-  Red = "#ff0000",
-  Blue = "#2266ff",
-  Yellow = "#ffff00",
+  White = "#f0e442",
+  Orange = "#cc79a7",
+  Green = "#56b4e9",
+  Red = "#d55e00",
+  Blue = "#009e73",
+  Yellow = "#ffffff",
 
   Purple = "#8800dd",
   Gray = "#aaaaaa",

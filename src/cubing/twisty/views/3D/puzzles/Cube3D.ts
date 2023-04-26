@@ -124,14 +124,14 @@ const axesInfo: AxisInfo[] = [
   new AxisInfo(
     new Vector3(0, 1, 0),
     new Euler(-TAU / 4, 0, 0),
-    0xffffff,
+    0xf0e442,
     0xdddddd,
     1.25,
   ),
   new AxisInfo(
     new Vector3(-1, 0, 0),
     new Euler(0, -TAU / 4, 0),
-    0xff8800,
+    0xcc79a7,
     0x884400,
     1,
     { hintDimColor: 0x996600 },
@@ -139,7 +139,7 @@ const axesInfo: AxisInfo[] = [
   new AxisInfo(
     new Vector3(0, 0, 1),
     new Euler(0, 0, 0),
-    0x00ff00,
+    0x56b4e9,
     0x008800,
     1,
     { hintDimColor: 0x009900 },
@@ -147,7 +147,7 @@ const axesInfo: AxisInfo[] = [
   new AxisInfo(
     new Vector3(1, 0, 0),
     new Euler(0, TAU / 4, 0),
-    0xff0000,
+    0xd55e00,
     0x660000,
     1,
     { hintDimColor: 0x990000 },
@@ -155,7 +155,7 @@ const axesInfo: AxisInfo[] = [
   new AxisInfo(
     new Vector3(0, 0, -1),
     new Euler(0, TAU / 2, 0),
-    0x2266ff,
+    0x009e73,
     0x113388,
     0.75,
     { hintDimColor: 0x001866 },
@@ -163,7 +163,7 @@ const axesInfo: AxisInfo[] = [
   new AxisInfo(
     new Vector3(0, -1, 0),
     new Euler(TAU / 4, 0, 0),
-    0xffff00,
+    0xffffff,
     0x888800,
     1.25,
     { hintDimColor: 0xbbbb00 },

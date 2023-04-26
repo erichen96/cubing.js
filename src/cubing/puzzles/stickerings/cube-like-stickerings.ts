@@ -62,6 +62,14 @@ export async function cubeLikeStickeringMask(
   }
 
   switch (stickering) {
+    case "corner": {      
+      puzzleStickering.set(EDGES(), PieceStickering.Ignored);
+      break;
+    }
+    case "edges": {
+      puzzleStickering.set(CORNERS(), PieceStickering.Ignored);
+      break;
+    }
     case "full":
       break;
     case "PLL": {
